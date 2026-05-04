@@ -1,0 +1,48 @@
+﻿# Virtual environment
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.class
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_metadata/
+
+# Data (raw data should not be in git — too large)
+data/raw/*.csv
+data/raw/*.json
+data/raw/*.xlsx
+data/raw/*.parquet
+data/processed/*.csv
+data/processed/*.parquet
+
+# Models (binary files, too large for git)
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.pt
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment variables
+.env
+.env.local
+
+# Distribution
+*.egg
+*.whl
